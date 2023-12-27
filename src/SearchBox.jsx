@@ -6,7 +6,7 @@ import {useState} from 'react';
 const SearchBox = ({updateInfo}) => {
 
     const API_URL="https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY="90937ad64e9d774992f3da739fcd9b21";
+    const API_KEY="<enter your api key >";
 
     const [city,setCity]=useState("");
     const [error,setError]=useState(false);
